@@ -1,5 +1,5 @@
 .header {
-    width: 92.5%;
+    width: 92%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -9,13 +9,13 @@
 
 @media screen and (max-width: 1024px) {
     .header {
-        width: 90.6%;
+        width: 90%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .header {
-        width: 93.7%;
+        width: 94%;
     }
 }
 
