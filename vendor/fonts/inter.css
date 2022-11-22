@@ -3,36 +3,17 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./Inter-Regular.woff2") format("woff2"),
-    url("./Inter-Regular.woff") format("woff");
+  src: url('./inter-400.woff') format('woff'),
+    url('./inter-400.woff2') format('woff2');
 }
-
-@font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("./Inter-Italic.woff2") format("woff2"),
-    url("./Inter-Italic.woff") format("woff");
-}
-
 
 @font-face {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("./Inter-Bold.woff2") format("woff2"),
-    url("./Inter-Bold.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 700;
-  font-display: swap;
-  src: url("./Inter-BoldItalic.woff2") format("woff2"),
-    url("./Inter-BoldItalic.woff") format("woff");
+  src: url('./inter-700.woff') format('woff'),
+    url('./inter-700.woff2') format('woff2');
 }
 
 
@@ -41,39 +22,6 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("./Inter-Black.woff2") format("woff2"),
-    url("./Inter-Black.woff") format("woff");
+  src: url('./inter-900.woff') format('woff'),
+    url('./inter-900.woff2') format('woff2');
 }
-
-@font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 900;
-  font-display: swap;
-  src: url("./Inter-BlackItalic.woff2") format("woff2"),
-    url("./Inter-BlackItalic.woff") format("woff");
-}
-
-/* -------------------------------------------------------
-Variable font.
-Usage:
-
-  html { font-family: 'Inter', sans-serif; }
-  @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
-  }
-*/
-
-/* --------------------------------------------------------------------------
-[EXPERIMENTAL] Multi-axis, single variable font.
-
-Slant axis is not yet widely supported (as of February 2019) and thus this
-multi-axis single variable font is opt-in rather than the default.
-
-When using this, you will probably need to set font-variation-settings
-explicitly, e.g.
-
-  * { font-variation-settings: "slnt" 0deg }
-  .italic { font-variation-settings: "slnt" 10deg }
-
-*/

@@ -8,10 +8,20 @@
     text-align: left;
 }
 
+.place__text:last-of-type {
+    margin: 0;
+}
+
+
 @media screen and (max-width: 768px) {
     .place__text {
         font-size: 16px;
         line-height: 26px;
-        margin: 0 0 25px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__text {
+        margin: 0 0 28px 0;
     }
 }
